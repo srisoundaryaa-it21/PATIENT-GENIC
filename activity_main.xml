@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="@drawable/bg"
+   tools:context=".MainActivity">
+
+   <TextView
+       android:id="@+id/textView"
+       android:layout_width="229dp"
+       android:layout_height="64dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="133dp"
+       android:layout_marginBottom="821dp"
+       android:text="Patient Genic"
+       android:textAlignment="center"
+       android:textColor="@color/white"
+       android:textSize="24sp"
+       android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/textView"
+       android:layout_width="229dp"
+       android:layout_height="64dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="133dp"
+       android:layout_marginBottom="821dp"
+       android:text="Patient Genic"
+       android:textAlignment="center"
+       android:textColor="@color/white"
+       android:textSize="24sp"
+       android:textStyle="bold"
+       tools:ignore="DuplicateIds" />
+
+   <TextView
+       android:id="@+id/textView4"
+       android:layout_width="158dp"
+       android:layout_height="58dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="104dp"
+       android:layout_marginBottom="591dp"
+       android:text="PATIENT GENIC"
+       android:textAlignment="center"
+       android:textColor="@color/white"
+       android:textSize="20sp"
+       android:textStyle="bold" />
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="124dp"
+       android:layout_height="133dp"
+       app:srcCompat="@drawable/logo" />
+
+   <ImageView
+       android:id="@+id/imageView3"
+       android:layout_width="350dp"
+       android:layout_height="361dp"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="27dp"
+       android:layout_marginBottom="228dp"
+       app:srcCompat="@drawable/started" />
+
+   <TextView
+       android:id="@+id/textView3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="29dp"
+       android:layout_marginBottom="247dp"
+       android:text="A Complete Healthcare Solution"
+       android:textSize="24sp"
+       android:textStyle="normal|bold|italic" />
+
+   <TextView
+       android:id="@+id/textView6"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="182dp"
+       android:text="Patient Genic provides a complete solution for Your Health.We are completely trustable."
+       android:textSize="16sp" />
+
+   <Button
+       android:id="@+id/start"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="136dp"
+       android:layout_marginBottom="102dp"
+       android:text="GET STARTED" />
+
+</RelativeLayout>
+
